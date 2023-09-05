@@ -1,0 +1,22 @@
+h1::before{
+    text-align: center;
+    content: "";
+    height: 2px;
+    width: 50vw;
+    background-color: #000;
+    position: absolute;
+    z-index: -3;
+    top: 30px;
+    right: 0;
+}
+h1::after{
+    text-align: center;
+    content: "";
+    height: 2px;
+    width: 50vw;
+    background-color: #000;
+    position: absolute;
+    z-index: -3;
+    top: 30px;
+    left: 0;
+}

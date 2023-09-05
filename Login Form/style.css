@@ -1,0 +1,36 @@
+body{
+    font-family: 'Alkatra', cursive;
+    background-color: antiquewhite;
+}
+
+h1{
+    text-align: center;
+    margin-top: 200px;
+}
+.contents{
+    display: grid;
+    grid-template-columns: 300px 200px;
+    justify-content: center;
+    grid-gap: 20px;
+}
+.gender{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    display: grid;
+}
+input[type=text]:focus{
+    border-color: red;
+    box-shadow: 0 0 8px 0 rgb(112, 220, 30);
+    box-shadow: wheat;
+}
+.button{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 50px;
+    grid-gap: 50px;
+    justify-content: center;
+    margin-left: 190px;
+}
+    
