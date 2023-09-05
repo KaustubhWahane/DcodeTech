@@ -1,0 +1,25 @@
+h2{
+    color: rgb(50, 176, 176);
+}
+th ,td {
+    border: 1px solid black ;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.table{
+   margin-left: 45em;
+}
+.resumebox{
+    margin-left: 25em;
+    padding: 1em;
+    width: 70em;
+    height: 73em;
+    border: 1px solid blue;
+}
+img{
+    width: 4em;
+    float: right;
+    margin-top: -6em;
+    margin-right: 20em;
+}

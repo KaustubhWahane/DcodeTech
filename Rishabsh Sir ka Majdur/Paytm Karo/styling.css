@@ -1,0 +1,26 @@
+.outerbox{
+    margin: 6em 15em 0 18em;
+    width: 88em;
+    height: 50em;
+    border: 1px solid blue;
+}
+.firstrow{
+    display: flex;
+}
+.firstdabba{
+    margin: 5em 15em 0 8em;
+    width: 17em;
+    height: 25em;
+    border: 1px solid blue;
+}
+.Jawan{
+    margin-top: 21.2em;
+    padding: 9px 80px 11.9px;
+    position: relative;
+}
+.jawan{
+    position: absolute;
+}
+.Release{
+    position: relative;
+}
