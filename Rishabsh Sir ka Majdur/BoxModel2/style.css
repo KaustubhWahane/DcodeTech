@@ -1,0 +1,82 @@
+.border{
+    margin-left: 23em;   
+    width: 60vw;
+    height: 100vh;
+    border: 1px solid black;
+}
+.hato{
+    width: 14em;
+}
+.ajaybhai{
+    width: 14em;
+    height: 16em;
+}
+.outerbox{
+    margin: 6em 15em 0 18em;
+    width: 88em;
+    height: 50em;
+    border: 1px solid blue;
+}
+h1,p{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+.firstdabba{
+    margin: 5em 15em 0 8em;
+    width: 14em;
+    height: 19em;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#Release{
+    position: relative;
+    width: 9em;
+    height: 3em;
+    margin-top: -5em;
+    margin-left: 5em;
+}
+.seconddabba{
+    margin-top: -43em;
+    margin-left: 30em;
+    width: 14em;
+    height: 19em;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.thirddabba{
+    margin-top: 5em;
+    margin-left: 30em;
+    width: 14em;
+    height: 19em;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.fourthdabba{
+    margin-top: -43em;
+    margin-left: 52em;
+    width: 14em;
+    height: 19em;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.fifthdabba{
+    margin-top: 5em;
+    margin-left: 52em;
+    width: 14em;
+    height: 19em;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+img:hover{
+    transform:scale(1.3);
+}
+button{
+    margin-left: 33em;
+    margin-top: 4em;
+    width: 200px;
+    padding: 10px 5px 10px 5px;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);        
+}
