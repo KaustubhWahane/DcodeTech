@@ -1,0 +1,139 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-link{
+    background-color: white;
+    font-size: 20px;
+    word-spacing: 5px;
+}
+.container-fluid {
+    background-size: cover;
+    background-color: white;
+    margin-left: 15em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbarNav{
+    padding-top: 10px;
+    margin-left: 3em;
+}
+input{
+    height: 3em;
+}
+li{
+    display: inline;
+    word-spacing: 3.5em;
+    list-style-type: none;
+}
+.secondNavigation{
+    margin-top: 1em;
+    margin-left: 29em;
+}
+.container{
+    margin-top: 3.5em;
+    margin-left: 17em;
+}
+.download{
+    margin-left: -6em;
+    margin-top: 18.6em;
+    padding-left: 10em;
+}
+.title{
+    text-align: center;
+    margin-top: 3em;
+    display: grid;
+    column-gap: 1.6rem;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+.title::before,.title::after{
+    content: "";
+    height: 1px;
+    background-color: pink;
+    width: 30%;
+}
+.befashion{
+    position: absolute;
+    margin-top: 3em;
+    width: 70em;
+    height: 35em;
+}
+.womenstore{
+    position: relative;
+    margin-left: 21em;
+    width: 30em;
+    height: 35em;
+}
+.innerwomenstore{
+    margin-top: 8em;
+    margin-left: 1em;
+    position: relative;
+    width: 26em;
+    height: 27.2em;
+}
+.innerMenstore{
+    margin-top: -20em;
+    margin-left: 27.5em;
+    position: relative;
+    width: 20em;
+    height: 20em;
+}
+.innerKidstore{
+    margin-top: -23em;
+    margin-left: 48em;
+    position: relative;
+    width: 20em;
+    height: 20em;
+}   
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.footer{
+	background-color: lavender;
+}
+.footerlist li{
+    width: 150px;
+    height: 90px;
+    margin-left: 25em;
+    margin-top: -3em;
+    display: grid;
+    list-style-type: none;
+}
+.footerlist ul li {
+	font-size: 18px;
+	font-weight: 300;
+	display: block;
+}
+.moreAboutMeesho{
+    background-color: white;
+    margin-left: 17em;
+    border: 1px solid black;
+    font-weight: 600;
+    width: 87em;
+    height: 190em;
+}
+.more{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 1em;
+    font-size: 20px;
+    padding-left: 1.5em;
+}
+.more2{
+    margin-top: 1em;
+    padding-left: 2em;
+}
+/* WomenSaarees.html */
+.saarees{
+    font-weight: 400;
+    margin-left: 17em;
+}
+.cards{
+    display: inline-block;
+    margin-top: 3em;
+    border: 1px solid black;
+    margin-left: 38em;
+    width: 60em;
+    height: 53em;
+}
