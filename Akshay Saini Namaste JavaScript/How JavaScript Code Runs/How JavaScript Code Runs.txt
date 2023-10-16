@@ -1,0 +1,11 @@
+Everything Happens inside an Execution Context.
+They are separated by Memory and Code Components.
+Also
+JavaScript is a SYCHRONOUS, SINGLE-THREADED language.
+There are two phases which is done when executing a JavaScript Code
+The first is Memory Allocation and the Second is Code Execution
+Remember after executing all lines of code all functions get deleted.
+At every function creation in Code content a new execution content is created.
+There is a GEC Global Execution Content inside that all the operations occur.
+Call Stack maintains the order of execution of Execution Content.
+In order to maintain all the function's consistency Call stack takes the function runs it then after processing when it ends Call Stack removes the function from the Execution Content.(Refer to Image)
