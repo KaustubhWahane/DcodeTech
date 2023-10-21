@@ -1,0 +1,65 @@
+⭐ How JavaScript Code is executed? with How JavaScript Works & Execution Context
+Everything Happens inside an Execution Context.
+They are separated by Memory and Code Components.
+Also JavaScript is a SYCHRONOUS, SINGLE-THREADED language.
+There are two phases which is done when executing a JavaScript Code
+The first is Memory Allocation and the Second is Code Execution remember after executing all lines of code all functions get deleted.
+At every function creation in Code content a new execution content is created.
+There is a GEC Global Execution Content inside that all the operations occur.
+Call Stack maintains the order of execution of Execution Content in order to maintain all the function's consistency. 
+Call stack takes the function runs it then after processing when it ends Call Stack removes the function from the Execution Content.(Refer to Images)
+
+⭐ Hoisting in JavaScript
+1. In JS, before the code is executed, the variables get initialized to undefined.
+2. Arrow functions enact as variables and get "undefined" during the memory creation phase while functions actually get run.
+3. Hoisting: Mechanism in JS where the variable declarations are moved to the top of the scope before execution. Therefore it is possible to call a function before initializing it.
+4. Whenever a JS program is run, a global execution block is created, which comprises of 2: Memory creation and Code execution.
+5. Variable declarations are scanned and are made undefined
+6. Function declarations are scanned and are made available
+
+⭐ How Functions Work
+1. We learnt how functions work in JS.
+2. At first a global execution context is created, which consists of Memory and code and has 2 phases: Memory allocation phase and code execution phase.
+3. In the first phase, the variables are assigned "undefined" while functions have their own code.
+4. Whenever there is a function declaration in the code, a separate local execution context gets created having its own phases and is pushed into the call stack.
+5. Once the function ends, the EC is removed from the call stack.
+6. When the program ends, even the global EC is pulled out of the call stack.
+
+⭐ Shortest JS Program Window(Object) & this keyword
+1. Shortest Program in JS: Empty file. Still, browsers make global EC and global space along with Window object.
+2. Global Space: Anything that is not in a function, is in the global space.
+3. Variables present in a global space can be accessed by a "window" object. (like window.a)
+4. In global space, (this === window) object.
+
+⭐Undefined vs not Defined 
+1. Undefined is like a placeholder till a variable is not assigned a value.
+2. undefined !== not defined
+3. JS- weakly typed language since it doesn't depend on data type declarations.
+
+⭐ The Scope Chain, 🔥Scope & Lexical Environment 
+1. Lexical environment = EC's Local Memory + Reference to Lexical Environment of its parent.
+2. Lexical Environment of its parent is the scope where a function is physically present or defined. So, suppose a function x(), is defined and invoked in the GEC, when function x()'s EC is pushed in the call stack, it stores a reference to its parent's lexical environment i.e. the GEC's memory.
+3. Whenever a new Execution Context is pushed in the Call Stack it holds a reference to the Lexical Environment of its parent, i.e. the EC's memory from where it was invoked.
+4. Global execution context holds reference to null.
+5. Javascript engine first looks for the variable/function being accessed in the local scope of the function, and if not found, it keeps on searching the lexical environment of its parent until it finds the variable/function being accessed.
+6. The mechanism mentioned in point 4 above is called SCOPE CHAIN.
+7. If the variable accessed is not found in the Scope Chain, then you will get the variable is not defined error in the browser's console.
+
+⭐let & const in JS 🔥Temporal Dead Zone
+1. let and const are hoisted but its memory is allocated at other place than window which cannot be accessed before initialisation.
+2. Temporal Dead Zone exists until variable is declared and assigned a value.
+3. window.variable OR this.variable will not give value of variable defined using let or const.
+4. We cannot redeclare the same variable with let/const(even with using var the second time).
+5. const variable declaration and initialisation must be done on the same line.
+6. There are three types of error: [1] referenceError {given where variable does not have memory allocation} [2] typeError {given when we change type that is not supposed to be changed} [3] syntaxError {when proper syntax(way of writing a statement) is not used}.
+7. Use const wherever possible followed by let, Use var as little as possible(only if you have to). It helps avoid error.
+8. Initialising variables at the top is good idea, helps shrinks TDZ to zero.
+
+⭐ Block Scope & Shadowing in JS
+1. Code inside curly bracket is called block.
+2. Multiple statements are grouped inside a block so it can be written where JS expects single statements like in if, else, loop, function etc.
+3. Block values are stored inside separate memory than global. They are stored in block. (the reason let and const are called block scope)
+4. Shadowing of variables using var, let and const.
+5. The shadow should not cross the scope of original otherwise it will give error.
+6. shadowing let with var is illegal shadowing and gives error.
+7. var value is stored in nearest outer function or global scope and hence can be accessed outside block as well whereas same is not the case with let and const.
