@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    #productsContainer {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(5, auto);
+      gap: 16px;
+      background-image:linear-gradient(120deg, #FFC371   50%, #FF5F6D 50% 100%);
+      padding: 10px;
+    }
+    div {
+      height: 100%;
+      width: 100%;
+      background-color: white;
+      border-radius: 15px;
+      padding: 5px;
+    }
+
+    img {
+      height: 120px;
+      width: 100%;
+      object-fit: contain;
+    }
+
+    p {
+      text-align: center;
+      margin-bottom: 0;
+    }
+   
+  </style>
+</head>
+
+<body>
+  <div id="productsContainer"></div>
+  <img src="assets/Logo cart.jpg" alt=""><p id="add">0</p>
+</body>
+</html>
+<script src="./index.js"></script>
