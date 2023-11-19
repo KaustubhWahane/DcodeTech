@@ -1,0 +1,18 @@
+#slider-container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+#slider{
+    display: flex;
+    transition: transform 2s linear;
+}
+.slide{
+    width: 100%;
+    flex-shrink: 0;
+}
+button{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 24px;
+}
